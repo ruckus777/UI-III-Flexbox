@@ -189,22 +189,22 @@ header img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-   
 }
-
 
 .box-section .box-content {
   width: 48.5%;
   padding: 10px;
   background-color: #ddd;
-  margin-top:30px;  
+  margin-top: 30px;
 }
 
-.bottom-section{
+.bottom-section {
+  display: flex;
+}
+
+.bottom-section .bottom-content {
     display:flex;
-
-}
-
-.bottom-section .bottom-content{
+    flex-wrap:wrap;
     
+
 }
