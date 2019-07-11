@@ -110,7 +110,7 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  /* list-style: none; */
 }
 blockquote,
 q {
@@ -148,25 +148,63 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
 /* Copy and paste your work from yesterday here and start 
 to refactor into flexbox */
-
-.title {
-  display: flex;
-  justify-content: right;
+body {
+  width: 1000px;
+  margin: auto;
 }
 
-.services-header-img {
+header {
   display: flex;
-  align-content: center;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
 }
 
-.servtag {
-  text-size-adjust: 56px;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+header img {
+  width: 15%;
 }
 
-.service-p {
+.services {
   display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+}
+
+.services div {
+  margin: 15px 0;
+}
+
+.box-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   
+}
+
+
+.box-section .box-content {
+  width: 48.5%;
+  padding: 10px;
+  background-color: #ddd;
+  margin-top:30px;  
+}
+
+.bottom-section{
+    display:flex;
+
+}
+
+.bottom-section .bottom-content{
+    
 }
